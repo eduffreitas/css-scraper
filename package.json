@@ -1,0 +1,29 @@
+{
+  "name": "css-scraper",
+  "version": "1.0.0",
+  "description": "CSS Scraper tool using PhantomJS and Webdriver",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduffreitas/css-scraper.git"
+  },
+  "keywords": [
+    "css",
+    "scraper",
+    "tool",
+    "phantomjs",
+    "webdriver"
+  ],
+  "author": "Eduardo de Freitas <edufreitas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduffreitas/css-scraper/issues"
+  },
+  "homepage": "https://github.com/eduffreitas/css-scraper#readme",
+  "dependencies": {
+    "selenium-webdriver": "^3.5.0"
+  }
+}
