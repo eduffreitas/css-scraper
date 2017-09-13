@@ -9,6 +9,6 @@ var driver = new webdriver.Builder()
 
 driver.get('http://www.google.com/ncr');
 driver.findElement(By.name('q')).sendKeys('webdriver');
-console.log(driver.findElement(By.name('btnG')));
+driver.findElement(By.name('btnG')).getCssValue('width').then((value) => console.log(value));
 
 driver.quit();
